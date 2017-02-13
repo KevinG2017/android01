@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.lzy.okhttputils.OkHttpUtils;
@@ -41,6 +42,7 @@ public class LoginActivity extends AppCompatActivity  implements ILoginActivityV
     private ImageView mImageViewPhoto;
     ILoginPresenter mLoginPresenter;
     ListView mListView;
+    private TextView textView1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
